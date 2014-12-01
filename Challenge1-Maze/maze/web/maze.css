@@ -1,0 +1,47 @@
+
+body {
+  background-color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+textarea {
+  font-family: 'Courier New';
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, h2, h3, p {
+  color: #FFFFFF;
+}
+
+textarea {
+  color: rgb(255,255,255);
+  background: transparent;
+  outline: 1px solid rgb(255,255,255);
+  border: 0px;
+  padding: 5px 10px;
+}
+
+button {
+  color: rgb(255,255,255);
+  background: transparent;
+  outline: 1px solid rgb(255,255,255);
+  border: 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+button:active {
+  color: #000000;
+  background-color: rgba(255,255,255,1);
+}
